@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+}
+
+.jumbo-container {
+    background-color: black;
+    color: white;
+}
+
+/* To Insert Background video for whole section */
+#intro-jumbo {
+    position: relative;
+
+}
+
+#intro-jumbo video {
+    height: 100vh;
+    width: 100%;
+    background-position: absolute;
+    z-index: 10;
+    object-fit: cover;
+    filter:brightness(30%);
+}
+
+#intro-jumbo .content {
+    background: rgba(0, 0, 0, 0, 5);
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+/* To end Background video for whole section */
+
+.bigDot {
+    color: #B2322C;
+}
+
+.kalidpic {
+    border-radius: 50%;
+    height:100px;
+}
+
+.big-kalid-pic {
+    height: 500px;
+}
+
+
+.section-title {
+    letter-spacing: .2rem;
+    color: #B2322C;
+    font-weight: bold;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+  }
+
+
+@media (max-width: 576px) {
+    .big-kalid-pic {
+        height: 200px;
+    }
+
+    .big-kalid-holder {
+        display: flex;
+        justify-content: center;
+    }
+}
